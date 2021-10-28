@@ -19,6 +19,7 @@ const palette = {
   blue: '#0066ff',
   gray: '#496057',
   pink: '#f06595',
+  darkblue: '#0066ff',
 };
 
 function App() {
