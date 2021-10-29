@@ -1,9 +1,14 @@
+/* eslint-disable */
 import './App.css';
 import Button from './Button';
 import styled, { ThemeProvider } from 'styled-components';
 import Dialog from './Dialog';
 import CounterHook from './CounterHook';
 import Say from './Say';
+import EventPractice from './EventPractice';
+import Keypress from './Keypress';
+import ValidationSample from './ValidationSample';
+import ScrollBox from './ScrollBox';
 
 //app component에서 색상 선언후 어떤 컴포넌트에서도 쓸 수 있게 만든다.
 //1. ThemeProvider를 import 해온후
@@ -26,7 +31,10 @@ const palette = {
 
 function App() {
   return (
-    <Say />
+    <>
+      <ScrollBox ref={(ref) => (this.scrollBox = ref)} />
+      <button onClick={() => this.scrollBox.scrollToBottom()}>맨 밑으로</button>
+    </>
     // <ThemeProvider theme={{ palette }}>
     //   <AppBlocking>
     //     <ButtonGroup>

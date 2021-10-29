@@ -1,0 +1,6 @@
+.success {
+  background-color: greenyellow;
+}
+.failure {
+  background-color: #ff4949;
+}
