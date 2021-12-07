@@ -6,7 +6,6 @@ input = input.split(' ').map((item) => +item);
 solution(input[0], input[1]);
 function solution(A, B) {
   // Write your code
-  console.log('곡식곡식');
   console.log(A + B);
   console.log(A - B);
   console.log(A * B);
