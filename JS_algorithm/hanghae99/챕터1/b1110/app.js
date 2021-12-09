@@ -5,11 +5,11 @@ let N = parseInt(input[0]);
 function solution(N) {
   let cnt = 0;
   let result = N;
-  let sum = 0;
+  let sum;
   // 반복문을 계속 돌린다.
   while (true) {
-    sum = result / 10 + (result % 10);
-    result = (result % 10) * 10 + sum;
+    sum = Math.floor(result / 10) + (result % 10);
+    result = (result % 10) * 10 + (sum % 10);
     cnt++;
     if (N === result) {
       break;
