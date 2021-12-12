@@ -18,7 +18,7 @@ function solution(board, moves) {
           stack.pop();
           answer += 2;
         } else {
-          // 바구니에 인형 넣기
+          // 바구니에 인형 넣기2n
           stack.push(tmp);
         }
         // 각 열에서 인형은 한번뽑으면 끝냄.
