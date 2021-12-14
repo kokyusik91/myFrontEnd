@@ -8,6 +8,7 @@ import Event from './components/2-7.Event/Event';
 import Condition from './components/2-8.ConditionalRendering/ConditionalRendering';
 import List from './components/2-9.List/List';
 import ControlledComponent from './components/2-10.Form/ControlledComponent';
+import Basic from './components/2-3.Basic/Basic';
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
       {/* <Event /> */}
       {/* <Condition /> */}
       {/* <List /> */}
-      <ControlledComponent />
+      {/* <ControlledComponent /> */}
+      <Basic />
     </div>
   );
 }
