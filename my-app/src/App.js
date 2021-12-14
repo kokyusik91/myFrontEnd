@@ -10,7 +10,10 @@ import './App.css';
 // import ControlledComponent from './components/2-10.Form/ControlledComponent';
 // import Basic from './components/2-3.Basic/Basic';
 // import LocalStoragePractice from './components/2-3.Basic/LocalStoragePractice';
-import UseStatepractice from './components/2-3.Basic/UseStatepractice.jsx';
+// import UseStatepractice from './components/2-3.Basic/UseStatepractice';
+// import UseEffectPractice from './components/2-3.Basic/UseEffectPractice';
+// import CustomHook from './components/2-3.Basic/CustomHook';
+import HookFlow from './components/2-3.Basic/HookFlow';
 
 function App() {
   return (
@@ -26,7 +29,10 @@ function App() {
       {/* <ControlledComponent /> */}
       {/* <Basic /> */}
       {/* <LocalStoragePractice /> */}
-      <UseStatepractice />
+      {/* <UseStatepractice /> */}
+      {/* <UseEffectPractice /> */}
+      {/* <CustomHook /> */}
+      <HookFlow />
     </div>
   );
 }
