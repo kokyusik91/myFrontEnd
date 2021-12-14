@@ -4,11 +4,13 @@ import './App.css';
 // import ClassComponent from './components/2-5.State/ClassComponent';
 // import FunctionalComponent from './components/2-5.State/FunctionalComponent';
 // import ClassComponent2 from './components/2-6.LifeCycle/ClassComponent';
-import Event from './components/2-7.Event/Event';
-import Condition from './components/2-8.ConditionalRendering/ConditionalRendering';
-import List from './components/2-9.List/List';
-import ControlledComponent from './components/2-10.Form/ControlledComponent';
-import Basic from './components/2-3.Basic/Basic';
+// import Event from './components/2-7.Event/Event';
+// import Condition from './components/2-8.ConditionalRendering/ConditionalRendering';
+// import List from './components/2-9.List/List';
+// import ControlledComponent from './components/2-10.Form/ControlledComponent';
+// import Basic from './components/2-3.Basic/Basic';
+// import LocalStoragePractice from './components/2-3.Basic/LocalStoragePractice';
+import UseStatepractice from './components/2-3.Basic/UseStatepractice.jsx';
 
 function App() {
   return (
@@ -22,7 +24,9 @@ function App() {
       {/* <Condition /> */}
       {/* <List /> */}
       {/* <ControlledComponent /> */}
-      <Basic />
+      {/* <Basic /> */}
+      {/* <LocalStoragePractice /> */}
+      <UseStatepractice />
     </div>
   );
 }

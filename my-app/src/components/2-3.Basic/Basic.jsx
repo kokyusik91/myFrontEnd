@@ -7,8 +7,8 @@ const Parent = () => {
   useEffect(() => {
     console.log('Parents useEffect');
     if (click) setName('name Changed');
-    else setName('This original name');
-  }, [name, click]);
+    else setName((prev) => 'This original name');
+  }, [click]);
 
   return (
     <>
