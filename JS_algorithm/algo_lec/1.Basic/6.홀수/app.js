@@ -9,14 +9,30 @@ const filePath = process.platform === 'linux' ? '/dev/stdin' : './input.txt';
 let input = fs.readFileSync(filePath).toString().split(' ');
 let array = input.map((el) => Number(el));
 
+// function solution(array) {
+//   let answer;
+//   let min = Number.MAX_SAFE_INTEGER;
+//   let sum = 0;
+//   for (let i = 0; i < array.length; i++) {
+//     if (array[i] % 2 !== 0) {
+//       sum += array[i];
+//       if (min > array[i]) min = array[i];
+//     }
+//   }
+//   answer = `${sum}\n${min}`;
+//   return answer;
+// }
+// console.log(solution(array));
+
+// for of로 사용
 function solution(array) {
   let answer;
   let min = Number.MAX_SAFE_INTEGER;
   let sum = 0;
-  for (let i = 0; i < array.length; i++) {
-    if (array[i] % 2 !== 0) {
-      sum += array[i];
-      if (min > array[i]) min = array[i];
+  for (let x of array) {
+    if (x % 2 === 1) {
+      sum += x;
+      if (min > x) min = x;
     }
   }
   answer = `${sum}\n${min}`;
