@@ -14,7 +14,9 @@ import './App.css';
 // import UseEffectPractice from './components/2-3.Basic/UseEffectPractice';
 // import CustomHook from './components/2-3.Basic/CustomHook';
 // import HookFlow from './components/2-3.Basic/HookFlow';
-import FormPractice from './components/2-3.Basic/FormPractice.jsx';
+// import FormPractice from './components/2-3.Basic/FormPractice.jsx';
+import Reducer from './components/3-3.Hooks/Reducer';
+import State from './components/3-3.Hooks/State';
 
 function App() {
   return (
@@ -34,7 +36,9 @@ function App() {
       {/* <UseEffectPractice /> */}
       {/* <CustomHook /> */}
       {/* <HookFlow /> */}
-      <FormPractice />
+      {/* <FormPractice /> */}
+      <Reducer />
+      <State />
     </div>
   );
 }
