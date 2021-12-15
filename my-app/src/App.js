@@ -15,8 +15,12 @@ import './App.css';
 // import CustomHook from './components/2-3.Basic/CustomHook';
 // import HookFlow from './components/2-3.Basic/HookFlow';
 // import FormPractice from './components/2-3.Basic/FormPractice.jsx';
-import Reducer from './components/3-3.Hooks/Reducer';
-import State from './components/3-3.Hooks/State';
+// import Reducer from './components/3-3.Hooks/Reducer';
+// import State from './components/3-3.Hooks/State';
+// import Composition from './components/3-4.Composition/Composition';
+// import WelcomeDialog from './components/3-4.Composition/WelcomeDialog';
+// import Dialog from './components/3-6.Composition2/Dialog';
+import ThankyouDialog from './components/3-6.Composition2/ThankyouDialog';
 
 function App() {
   return (
@@ -37,8 +41,12 @@ function App() {
       {/* <CustomHook /> */}
       {/* <HookFlow /> */}
       {/* <FormPractice /> */}
-      <Reducer />
-      <State />
+      {/* <Reducer /> */}
+      {/* <State /> */}
+      {/* <Composition /> */}
+      {/* <WelcomeDialog /> */}
+      {/* <Dialog /> */}
+      <ThankyouDialog />
     </div>
   );
 }
