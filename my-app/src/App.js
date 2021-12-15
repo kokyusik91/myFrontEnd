@@ -13,7 +13,8 @@ import './App.css';
 // import UseStatepractice from './components/2-3.Basic/UseStatepractice';
 // import UseEffectPractice from './components/2-3.Basic/UseEffectPractice';
 // import CustomHook from './components/2-3.Basic/CustomHook';
-import HookFlow from './components/2-3.Basic/HookFlow';
+// import HookFlow from './components/2-3.Basic/HookFlow';
+import FormPractice from './components/2-3.Basic/FormPractice.jsx';
 
 function App() {
   return (
@@ -32,7 +33,8 @@ function App() {
       {/* <UseStatepractice /> */}
       {/* <UseEffectPractice /> */}
       {/* <CustomHook /> */}
-      <HookFlow />
+      {/* <HookFlow /> */}
+      <FormPractice />
     </div>
   );
 }
