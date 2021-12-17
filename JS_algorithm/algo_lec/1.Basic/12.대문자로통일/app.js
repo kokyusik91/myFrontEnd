@@ -24,7 +24,6 @@ function solution(input) {
 }
 console.log(solution(input));
 
-// /* 아스키 코드 사용 */
 // function solution(input) {
 //   let answer = input.toUpperCase();
 //   return answer;
