@@ -3,12 +3,27 @@
 
 const fs = require('fs');
 const filePath = process.platform === 'linux' ? '/dev/stdin' : './input.txt';
-const array = fs.readFileSync(filePath).toString().split('\n');
-console.log(array);
+const input = fs.readFileSync(filePath).toString().split('\n');
+const array = [];
+for (let i = 1; i < input.length; i++) {
+  array.push(input[i]);
+}
 
-// function solution(s) {
+// function solution(array) {
 //   let answer = '';
-
+//   for (let i = 0; i < array.length; i++) {
+//     if (i === array.indexOf(array[i])) console.log(array[i]);
+//   }
 //   return answer;
 // }
-// console.log(solution(s));
+// console.log(solution(array));
+
+/* filter로 풀어보기 */
+function solution(array) {
+  let answer;
+  answer = array.filter((el, i) => {
+    return i === array.indexOf(el);
+  });
+  return answer;
+}
+console.log(solution(array));
