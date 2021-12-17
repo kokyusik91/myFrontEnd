@@ -20,7 +20,10 @@ import './App.css';
 // import Composition from './components/3-4.Composition/Composition';
 // import WelcomeDialog from './components/3-4.Composition/WelcomeDialog';
 // import Dialog from './components/3-6.Composition2/Dialog';
-import ThankyouDialog from './components/3-6.Composition2/ThankyouDialog';
+// import ThankyouDialog from './components/3-6.Composition2/ThankyouDialog';
+// import Input from './components/3-7.HOC/Input';
+// import Button from './components/3-7.HOC/Button';
+import Memo from './components/3-8.Memoization/Memo';
 
 function App() {
   return (
@@ -46,7 +49,12 @@ function App() {
       {/* <Composition /> */}
       {/* <WelcomeDialog /> */}
       {/* <Dialog /> */}
-      <ThankyouDialog />
+      {/* <ThankyouDialog /> */}
+      {/* <Input />
+      <br />
+      <br />
+      <Button /> */}
+      <Memo />
     </div>
   );
 }
