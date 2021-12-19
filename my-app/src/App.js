@@ -54,7 +54,7 @@ function App() {
       <br />
       <br />
       <Button /> */}
-      <Memo />
+      {/* <Memo /> */}
     </div>
   );
 }
