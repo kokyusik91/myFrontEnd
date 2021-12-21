@@ -10,7 +10,6 @@ for (let i = A; i <= B; i++) {
     continue;
   }
   if (isPrime(i)) {
-    console.log(i);
   }
 }
 
