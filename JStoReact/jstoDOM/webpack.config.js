@@ -41,7 +41,7 @@
 //     }),
 //   ],
 // };
-
+// 웹팩 설정
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 
