@@ -52,6 +52,7 @@
 - 게시물(post) 전체 요청시 category, page, size를 query String에 포함 시켜 요청함 ` apis/community/?category=${category}&page=${page}&size=${size}` 이런식으로
 - axios.interceptor를 이용해서 header에 토큰 고정해서 요청 보냄
 - 게시물 조회와 페이지네이션 처리하기 (useEffect, useState, async, await 사용)
+- api service layer 작성시 주석에 타입 지정
 
 ### 🔨 찾아볼 내용
 
@@ -64,3 +65,4 @@
 - 주석 다는 방법
 - webstorm 사용
 - AWS EC2 사용하는 방법
+- default parameter (자바스크립트 함수 사용)
