@@ -43,3 +43,24 @@
 - 리액트 코드 스플리팅
 - 리액트에서 반응형 적용 하는 방법들?
 - react-router-dom에서 **HashRouter, BrowserRouter, connectedRouter** 차이
+
+## 2021.01.27 (개발시작)
+
+### 오늘 한것
+
+- 작성되어진 스웨거로 request url 작성
+- 게시물(post) 전체 요청시 category, page, size를 query String에 포함 시켜 요청함 ` apis/community/?category=${category}&page=${page}&size=${size}` 이런식으로
+- axios.interceptor를 이용해서 header에 토큰 고정해서 요청 보냄
+- 게시물 조회와 페이지네이션 처리하기 (useEffect, useState, async, await 사용)
+
+### 🔨 찾아볼 내용
+
+- queryString ? queryParams ? 차이?
+- CORS 이슈 해결방법 프론트에서
+- Axios interceptor 용도와 사용방법
+- Enums
+- useRoutes 확인
+- 리액트 파일 구조
+- 주석 다는 방법
+- webstorm 사용
+- AWS EC2 사용하는 방법
