@@ -13,7 +13,6 @@
 - 각종 계정 연동 (notion, slack, 돈톡)
 - FTP 프로그램 설치 (FileZila)
 - Gitlab 연동
-- Figma 설치
 - jetBrain 서비스 설치 webstorm, DataGrip
 
 ### 📍 회사 서비스 설명
