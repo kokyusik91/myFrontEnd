@@ -65,3 +65,5 @@
 - webstorm 사용
 - AWS EC2 사용하는 방법
 - default parameter (자바스크립트 함수 사용)
+- react storybook 도입예정
+- react component 나누는 방법
