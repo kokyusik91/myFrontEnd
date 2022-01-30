@@ -67,3 +67,4 @@
 - default parameter (자바스크립트 함수 사용)
 - react storybook 도입예정
 - react component 나누는 방법
+- async await 및 promise 활용방법
