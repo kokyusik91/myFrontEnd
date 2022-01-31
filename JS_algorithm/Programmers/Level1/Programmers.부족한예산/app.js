@@ -11,6 +11,7 @@ function solution(price, money, count) {
 
 console.log(solution(price, money, count));
 
+// 필요한 돈 계산하기
 function showmethemoney(price, count) {
   let needMoney = 0;
   for (let i = 1; i <= count; i++) {
