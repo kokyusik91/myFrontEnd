@@ -2,9 +2,7 @@ import React from 'react';
 import { Counter } from './Counter';
 
 function Usage() {
-  const handleChangeCounter = (count) => {
-    console.log('count', count);
-  };
+  const handleChangeCounter = (count) => {};
 
   return (
     <Counter onChange={handleChangeCounter}>
