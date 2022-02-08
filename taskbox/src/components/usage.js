@@ -9,6 +9,7 @@ function Usage() {
       <Counter.Decrement icon='minus' />
       <Counter.Label>Counter</Counter.Label>
       <Counter.Count max={10} />
+      {/* 카운터 */}
       <Counter.Increment icon='plus' />
     </Counter>
   );
