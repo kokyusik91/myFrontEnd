@@ -9,7 +9,7 @@ export default {
 };
 
 const Template = (args) => <Task {...args} />;
-
+// 스토리
 export const Default = Template.bind({});
 Default.args = {
   task: {
