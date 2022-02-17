@@ -21,6 +21,7 @@ Default.args = {
 };
 
 // 바인드?
+// 바인드?
 export const Pinned = Template.bind({});
 Pinned.args = {
   task: {
