@@ -29,7 +29,7 @@ Pinned.args = {
     state: 'TASK_PINNED',
   },
 };
-
+// 종류
 export const Archived = Template.bind({});
 Archived.args = {
   task: {
