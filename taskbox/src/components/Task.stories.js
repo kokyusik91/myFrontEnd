@@ -7,7 +7,7 @@ export default {
   component: Task,
   title: 'Task',
 };
-
+// 스토리 셋팅
 const Template = (args) => <Task {...args} />;
 // 스토리
 export const Default = Template.bind({});
