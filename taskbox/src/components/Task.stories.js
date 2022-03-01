@@ -7,6 +7,7 @@ export default {
   component: Task,
   title: 'Task',
 };
+// 스토리북 적용전
 // 스토리 북 스타트
 // 스토리 파악
 // 스토리 셋팅
