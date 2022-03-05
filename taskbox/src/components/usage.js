@@ -1,6 +1,7 @@
 import React from 'react';
 import { Counter } from './Counter';
 
+// 함수 적용
 function Usage() {
   const handleChangeCounter = (count) => {};
 
