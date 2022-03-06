@@ -40,6 +40,7 @@ export default function Task({
   );
 }
 
+// usestate
 Task.propTypes = {
   /** Composition of the task */
   task: PropTypes.shape({
