@@ -39,7 +39,7 @@ export default function Task({
     </div>
   );
 }
-
+// state
 // usestate
 Task.propTypes = {
   /** Composition of the task */
