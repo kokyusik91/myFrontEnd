@@ -1,6 +1,6 @@
 import React from 'react';
 import { Counter } from './Counter';
-
+//  useEffect
 // 함수 적용
 function Usage() {
   const handleChangeCounter = (count) => {};
