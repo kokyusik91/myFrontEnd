@@ -1,6 +1,7 @@
 import React from 'react';
 importScripts;
 import { Counter } from './Counter';
+('');
 // git add
 //  useEffect
 // 함수 적용
