@@ -1,14 +1,9 @@
 import React from 'react';
-importScripts;
 import { Counter } from './Counter';
-('');
-// git add
-//  useEffect
-// 함수 적용
+
 function Usage() {
   const handleChangeCounter = (count) => {};
-  //  git log
-  // state
+
   return (
     <Counter onChange={handleChangeCounter}>
       <Counter.Decrement icon='minus' />
