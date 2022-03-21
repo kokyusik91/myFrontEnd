@@ -120,6 +120,7 @@ const Image = styled.img`
   width: 240px;
   height: 240px;
   margin-right: 12px;
+  border-radius: 5px;
   src: ${(props) => props.src};
   object-fit: cover;
 `;
