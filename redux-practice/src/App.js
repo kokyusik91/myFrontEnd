@@ -5,6 +5,7 @@ import Brother from './components/Brother';
 import Render from './components/Render';
 import ReduxTest from './components/ReduxTest';
 import UseRef from './components/UseRef';
+import PhotoTest from './components/PhotoTest';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Route path='/bro' exact component={Brother} />
       <Route path='/render' exact component={Render} />
       <Route path='/useref' exact component={UseRef} />
+      <Route path='/test' exact component={PhotoTest} />
     </Switch>
   );
 }
