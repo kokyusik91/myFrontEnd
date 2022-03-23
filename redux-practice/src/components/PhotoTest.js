@@ -117,8 +117,8 @@ const Text = styled.p`
 `;
 
 const Image = styled.img`
-  width: 240px;
-  height: 240px;
+  width: 80px;
+  height: 80px;
   margin-right: 12px;
   border-radius: 5px;
   src: ${(props) => props.src};
