@@ -1,6 +1,6 @@
 export const data = [
   {
-    id: 1,
+    id: 7,
     title: 'renata',
     src: 'https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Renata_0.jpg',
   },
