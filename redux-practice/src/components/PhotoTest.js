@@ -7,6 +7,7 @@ import 'swiper/swiper-bundle.min.css';
 import 'swiper/swiper.min.css';
 
 const PhotoTest = () => {
+  console.log('hello');
   const [photoPopUp, setPhotoPopUp] = useState(false);
   const [photoIdx, setPhotoIdx] = useState(0);
   const selectedImage = data.find((item) => {
