@@ -6,6 +6,7 @@ import SwiperCore, { Navigation, navigation } from 'swiper';
 import 'swiper/swiper-bundle.min.css';
 import 'swiper/swiper.min.css';
 
+// hello
 const PhotoTest = () => {
   console.log('hello');
   const [photoPopUp, setPhotoPopUp] = useState(false);
