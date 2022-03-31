@@ -99,9 +99,11 @@ const SwiperLB = (props) => {
 const Container = styled.div`
   padding: 0 1rem;
 `;
+caches;
+ß;
 
 const Grid = styled.div`
-  display: flex;
+  display: flex;ß
   justify-content: center;
   align-items: center;
 `;
