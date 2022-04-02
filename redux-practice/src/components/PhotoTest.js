@@ -95,15 +95,12 @@ const SwiperLB = (props) => {
   );
 };
 
-// hello
 const Container = styled.div`
   padding: 0 1rem;
 `;
-caches;
-ß;
 
 const Grid = styled.div`
-  display: flex;ß
+  display: flex;
   justify-content: center;
   align-items: center;
 `;
