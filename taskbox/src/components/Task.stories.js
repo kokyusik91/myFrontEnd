@@ -19,7 +19,6 @@ Default.args = {
     updatedAt: new Date(2018, 0, 1, 9, 0),
   },
 };
-
 // 바인드?
 // 바인드?
 export const Pinned = Template.bind({});
