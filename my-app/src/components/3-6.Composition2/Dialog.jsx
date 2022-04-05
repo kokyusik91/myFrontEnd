@@ -26,7 +26,7 @@ const Dialog = (props) => {
           {typeof props.description === 'string' ? (
             <h5>{props.description}</h5>
           ) : (
-            props.title
+            props.description
           )}
           {typeof props.button === 'string' ? (
             <button

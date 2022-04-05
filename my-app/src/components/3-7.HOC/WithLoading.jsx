@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
-function WithLoading(Component) {
+// 단지 함수
+function withLoading(Component) {
   // HOC 영역
   const WidthLoadingComponent = (props) => {
     const [loading, setLoading] = useState(true);
@@ -17,6 +18,6 @@ function WithLoading(Component) {
   return WidthLoadingComponent;
 }
 
-export default WithLoading;
+export default withLoading;
 
 /* 재 사용성을 위한 리액트의 고민 */
