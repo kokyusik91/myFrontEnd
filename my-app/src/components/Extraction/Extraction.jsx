@@ -32,6 +32,7 @@ function Comment(props) {
     </div>
   );
 }
+// hello
 
 // 컴포넌트로 따로 빼서 관리 Extraction
 function UserInfo(props) {
