@@ -1,24 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import Emotion from './components/emotion/Emotion.jsx';
+import Emotion2 from './components/emotion/Emotion2';
+import Emotion3 from './components/emotion/Emotion3';
 
 function App() {
+  // styled components는 스타일만 들어간 리액트 컴포넌트를 만들어준다.
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Emotion3 />
+    </>
   );
 }
 
