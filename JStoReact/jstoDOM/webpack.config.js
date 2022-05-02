@@ -45,6 +45,7 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 
+// 오유야
 module.exports = {
   mode: 'development',
   entry: './src/app.js',
