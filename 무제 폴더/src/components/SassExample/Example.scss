@@ -1,0 +1,115 @@
+@use 'foundation/base';
+@use 'sass:math';
+
+// 변수 생성
+$font-stack: Helvetica, sans-serif;
+$primary-color: #0066ff;
+
+.fofont {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+// nesting
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+}
+
+// 외부 scss 파일에서 선언한 변수도 사용가능
+.inverse {
+  background-color: base.$primary-color;
+  color: white;
+}
+
+// theme이라는 이름을 가진 함수
+@mixin theme($theme: DarkGray) {
+  background: $theme;
+  box-shadow: 0 0 1px rgba($theme, 0.25);
+  color: #fff;
+}
+
+.info {
+  @include theme;
+}
+.alert {
+  @include theme($theme: DarkRed);
+}
+.success {
+  @include theme($theme: DarkGreen);
+}
+
+// %로 먼저 선언해 놓고 사용가능
+%message-shared {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+// extend 문법
+.message {
+  @extend %message-shared;
+}
+
+.successed {
+  @extend %message-shared;
+  border-color: green;
+}
+
+// 계산할 수 있는 기능도 있다.
+.container {
+  display: flex;
+}
+
+article[role='main'] {
+  width: math.div(600px, 960px) * 100%;
+}
+
+aside[role='complementary'] {
+  width: math.div(300px, 960px) * 100%;
+  margin-left: auto;
+}
+
+// if else문 도 사용 할 수 있음.
+@mixin avatar($size, $circle: false) {
+  width: $size;
+  height: $size;
+  background-color: #0066ff;
+
+  @if $circle {
+    border-radius: $size / 2;
+  }
+}
+.square-av {
+  @include avatar(100px, $circle: false);
+}
+.circle-av {
+  @include avatar(100px, $circle: true);
+}
+
+// Interpolation
+
+// @mixin prefix($property, $value, $prefixes) {
+//   // prefixes에는 배열이 들어간다.[moz,webkit,etc...]
+//   // @each 반복문임.
+//   @each $prefix in $prefixes {
+//     -#{$prefix}-#{$property}: $value;
+//   }
+//   #{$property}: $value;
+// }
+
+// .gray {
+//   @include prefix(filter, grayscale(50%), moz webkit, o, ms);
+// }
